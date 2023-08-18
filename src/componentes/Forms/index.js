@@ -40,7 +40,6 @@ const Forms = (props) => {
             <Dropdown valor={time} AoMudar={valor => SetTime(valor)}obg={true} label="Times" itens={props.times}/>
             <Button texto='Criar Card'/>
             </form>
-            <Footer/>
         </section>
       
     )
